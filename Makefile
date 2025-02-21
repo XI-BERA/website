@@ -1,7 +1,7 @@
-include -custom.mk
+-include custom.mk
 
-WEBHOST:=xibera.com
-WEBUSER:=$(USER)
+WEBHOST:=floki
+WEBUSER:=snappy
 WEBROOT:=/var/www/xibera
 
 SRC := index.html favicon.ico style.css $(wildcard ./img/*)
@@ -13,3 +13,4 @@ all: $(SRC)
 upload: $(SRC)
 	rsync -rvzP --delete $^ $(WEBHOST):$(WEBROOT)
 	ssh $(WEBHOST) "chown -R $(WEBUSER):www-data /var/www/xibera/"
+	ssh $(WEBHOST) "chmod -R a+r /var/www/xibera/"
