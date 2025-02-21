@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #73401C;  /* Brown background from Xi BERA logo */
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Spacing */
+section {
+  padding: 40px 20px;
+}
+
+/* Logo */
+#logo {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #FFC107; /* Bright gold */
+}
+
+/* Call-to-Action Buttons */
+.cta, .buy-button, .berachain-btn, .berachain-hub-btn {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+/* Primary CTA */
+.cta {
+  background-color: #FFC107;
+  color: #4D2B12;
+}
+.cta:hover {
+  background-color: #e0a00f;
+}
+
+/* Buy Button */
+.buy-button {
+  background-color: #ff4d00; /* Fiery color to stand out */
+  color: white;
+  margin-top: 20px;
+}
+.buy-button:hover {
+  background-color: #cc3b00;
+}
+
+/* Berachain Buttons */
+.berachain-btn {
+  background-color: #34a853; /* Green like Berachain branding */
+  color: white;
+  margin: 10px;
+}
+.berachain-btn:hover {
+  background-color: #2a8d45;
+}
+
+.berachain-hub-btn {
+  background-color: #0073ff; /* Blue like Berachain Hub */
+  color: white;
+  margin: 10px;
+}
+.berachain-hub-btn:hover {
+  background-color: #005bcc;
+}
