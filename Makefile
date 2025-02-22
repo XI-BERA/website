@@ -1,16 +1,27 @@
 -include custom.mk
 
-WEBHOST:=floki
-WEBUSER:=snappy
-WEBROOT:=/var/www/xibera
+WEBHOST?=xibera.com
+WEBUSER?=$(USER)
+WEBROOT?=/var/www/xibera
 
-SRC := index.html favicon.ico style.css $(wildcard ./img/*)
+SRC := index.html favicon.ico style.css
 
-all: $(SRC)
-	rsync --dry-run -rvzP --delete $^ $(WEBUSER)@$(WEBHOST):$(WEBROOT) && \
-		echo "If this looks correct use makle upload to upload."
+# Define file patterns
+PATTERNS# Define file patterns
 
-upload: $(SRC)
+PATTERNS := *.html *.png *.jpg *.css
+
+# Convert patterns into rsync --include options
+INCLUDE_FLAGS := $(foreach pattern,$(PATTERNS),--include="$(pattern)")
+
+# Define remote location
+REMOTE := $(WEBUSER)@$(WENHOST):$(WEBROOT)
+
+# Rsync rule
+sync:
+	rsync -av --include="*/" $(INCLUDE_FLAGS) --exclude="*" ./ $(REMOTE)
+
+all: $(SRC) 
 	rsync -rvzP --delete $^ $(WEBHOST):$(WEBROOT)
 	ssh $(WEBHOST) "chown -R $(WEBUSER):www-data /var/www/xibera/"
 	ssh $(WEBHOST) "chmod -R a+r /var/www/xibera/"

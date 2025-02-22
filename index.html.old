@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xi BERA - The Commemorative Coin of Xi Xiang</title>
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-sans">
+    <!-- Header -->
+    <header class="flex items-center justify-between p-4 bg-[#78350f]">
+      <div class="flex items-center space-x-3">
+        <img src="img/xibera_logo.png" alt="Xi BERA Logo" class="h-10 w-10 rounded-full" />
+        <h1 class="text-xl font-bold font-display text-white">Xi BERA</h1>
+      </div>
+      <nav>
+        <a href="https://x.com/Xi_BERA" target="_blank" rel="noopener" class="text-white hover:text-yellow-500 transition-colors">
+          X
+        </a>
+      </nav>
+    </header>
+
+    <!-- Hero/Main Section -->
+    <main class="max-w-4xl mx-auto p-4 space-y-8 text-center">
+      <h2 class="text-3xl font-bold font-display">
+        Xi BERA (Ⅺ)
+      </h2>
+      <h3>The Commemorative Coin of Xi Xiang</h3>
+      <img src="img/xibera_logo_nobg.png" alt="Mascot" id="logo" class="block w-1/5 mx-auto" />
+      <div class="flex justify-center">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <!-- Images will be injected here by JavaScript -->
+            </div>
+<!--<button class="prev" onclick="prevSlide()">&#10094;</button>
+<button class="next" onclick="nextSlide()">&#10095;</button>-->
+        </div>
+      </div>
+        <img src="img/xi.png" alt="symbol" id="symbokl" class="block w-1/5 mx-auto" />
+      <section class="bg-yellow-500 rounded-lg shadow-2g">
+      <p>
+        Xi BERA is not just another meme coin – it's a statement. A coin so <strong>illegal in China</strong> that even mentioning its name might get you in trouble! (Yes, really. 😅)
+      </p>
+      <p>
+        Why? Because our beloved mascot is inspired by a certain honey-loving bear who’s <strong>banned in China</strong> thanks to an uncanny resemblance to a certain leader.
+      </p>
+      <ul class="text-left space-y-2">
+        <li><strong>🚫🇨🇳 Banned in Beijing:</strong> The coin that shall not be named in China.</li>
+        <li><strong>🐻 Trust the bear:</strong>XI BERA is managed on chain using pot2pump.</li>
+        <li><strong>🙊 The Forbidden Crypto:</strong> Inspired by a censored meme, fueled by satire.</li>
+      </ul>
+      <p>Join the fun and embrace the meme.<br/>Just remember: if someone from Beijing asks, you didn’t hear about Xi BERA! 🤐</p>
+
+      <!-- Call-to-Action Button -->
+      <a href="https://pot2pump.honeypotfinance.xyz/launch-detail/0xa40E6433782Ffb18c8eEb16D201E331E37AbFB74" 
+         target="_blank" class="buy-button">
+        🍯 Join the Meme 🍯
+      </a>
+     </section>
+      <!-- About the Meme Section -->
+      <section class="bg-yellow-500 text-white p-6 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold font-display">📺 About the Meme</h2>
+      <div class="video-container mx-auto max-w-2xl">
+        <iframe class="w-full h-64" src="https://www.youtube.com/embed/OubM8bD9kck" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>
+        Wondering why a silly bear is such a big deal? Watch John Oliver break down how Winnie the Pooh became a sensitive subject in China.
+      </p>
+     </section>
+
+      <!-- Why Berachain Section -->
+      <section class="bg-yellow-500 text-white p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-bold">🐻⛓ Why Berachain?</h3>
+        <p>
+          If you missed out on past memecoin cycles, don't worry. Berachain is the next generation.
+          It's the first Proof-of-Liquidity (PoL) blockchain, designed for degens, builders, and bears alike. 
+          No wasteful mining and no centralized validators or staking pools, thanks to innovations in the system.
+        </p>
+        <p>
+          Berachain is a high-performance EVM-compatible chain where staked liquidity fuels security,
+          ensuring deep liquidity and a sustainable DeFi ecosystem.
+          It's where the next big memes, protocols, and projects are launching and since it's Bear-themed,
+          the logical meme coin should be inspired by the most famous bear.
+        </p>
+        <a href="https://pot2pump.honeypotfinance.xyz/launch-detail/0xa40E6433782Ffb18c8eEb16D201E331E37AbFB74" 
+           target="_blank" class="buy-button">
+          🍯 Join the Meme - It is still early for Crypto 🍯
+        </a>
+        <div class="mt-4 space-x-2">
+          <a href="https://www.berachain.com" target="_blank" 
+             class="berachain-btn bg-black text-yellow-500 font-bold px-4 py-2 rounded-md shadow-md hover:bg-gray-900">
+            Visit Berachain
+          </a>
+          <a href="https://hub.berachain.com" target="_blank" 
+             class="berachain-hub-btn bg-black text-yellow-500 font-bold px-4 py-2 rounded-md shadow-md hover:bg-gray-900">
+            Explore Berachain Hub
+          </a>
+        </div>
+      </section>
+
+
+      <!-- About Section -->
+      <section class="text-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold">Open Source & Privacy</h3>
+          <p>
+          Xi BERA is fully **open source**, welcoming contributors from all over the world.
+          Everything related to Xi BERA is developed transparently. This website is available
+          on github.
+          </p>
+          <p>
+          We support <b>online privacy, anonymity, and TOR usage</b>. Xi BERA embraces
+          decentralization, making sure that users have access to censorship-resistant tools.          </p>
+          <br/>
+          <p> No BERA should be illegal.</p>
+          <br/>
+          <a href="https://docs.honeypotfinance.xyz/products/pot2pump/how-it-works" target="_blank" 
+             class="berachain-hub-btn bg-black text-yellow-500 font-bold px-4 py-2 rounded-md shadow-md hover:bg-gray-900">
+              Find out how it works
+          </a>
+      </section>
+
+<!-- Social Links Box -->
+      <div class="flex flex-col items-center p-6 bg-yellow-500 text-black rounded-lg shadow-lg space-y-4">
+        <h2 class="text-2xl font-bold font-display">📢 Connect with Xi BERA</h2>
+
+        <div class="flex space-x-6">
+          <!-- GitHub: xi-bera -->
+          <a href="https://github.com/xi-bera" target="_blank" rel="noopener" 
+             class="text-black hover:text-gray-800 transition" aria-label="GitHub (xi-bera)">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 0.3a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-1.6c-3.3.7-4-1.6-4-1.6-.6-1.5-1.5-1.9-1.5-1.9-1.2-.8.1-.8.1-.8 1.3.1 2 1.3 2 1.3 1.2 2 3 1.4 3.7 1.1.1-.9.5-1.5.9-1.8-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.3a11.5 11.5 0 0 1 6 0c2.2-1.6 3.3-1.3 3.3-1.3.6 1.7.2 2.9.1 3.2.8.9 1.2 2 1.2 3.3 0 4.6-2.7 5.6-5.3 5.9.5.5 1 1.4 1 2.8v4.1c0 .3.2.6.8.5A12 12 0 0 0 12 0.3z"/>
+            </svg>
+          </a>
+
+          <!-- X (Twitter): xi_bera -->
+          <a href="https://x.com/xi_bera" target="_blank" rel="noopener" 
+             class="text-black hover:text-gray-800 transition" aria-label="X (Twitter)">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.4 3.1c-.9.4-1.8.6-2.8.8 1-.6 1.7-1.5 2.1-2.6-.9.5-1.9.9-3 .9a5.1 5.1 0 0 0-8.7 4.6A14.4 14.4 0 0 1 1.7 2.1a5.1 5.1 0 0 0 1.6 6.8c-.7 0-1.5-.2-2-.5v.1a5.1 5.1 0 0 0 4.1 5c-.6.1-1.2.2-1.8.1.5 1.8 2 3 3.8 3a10.3 10.3 0 0 1-6.4 2.2A14.6 14.6 0 0 0 8 21c9.4 0 14.6-7.8 14.6-14.6l-.1-.6a10.3 10.3 0 0 0 2.5-2.7z"/>
+            </svg>
+          </a>
+
+          <!-- Discord: Honeypot Finance server -->
+          <a href="https://discord.gg/honeypotfinance" target="_blank" rel="noopener" 
+             class="text-black hover:text-gray-800 transition" aria-label="Discord">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 0H4a4 4 0 0 0-4 4v16a4 4 0 0 0 4 4h12.7a7.5 7.5 0 0 0 4.5-1.5l2.8-2.7a2.5 2.5 0 0 0 0-3.5l-2.8-2.8A7.5 7.5 0 0 0 20 0zM9 7.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm6 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center text-xs text-white-500 p-4">
+      &copy; 2025 Xi BERA collective. No bears were harmed in the creation of this coin.
+    </footer>
+    <script>
+        // List of external image URLs
+        const images = [
+            "https://i0.wp.com/www.opindia.com/wp-content/uploads/2019/10/Xi-Jinping-Winnie-the-Pooh.jpg"
+        ];
+
+        const carousel = document.getElementById("carousel");
+
+        // Populate the carousel with images
+        images.forEach(url => {
+            let img = document.createElement("img");
+            img.src = url;
+            carousel.appendChild(img);
+        });
+
+        let index = 0;
+        function updateCarousel() {
+            carousel.style.transform = `translateX(${-index * 600}px)`;
+        }
+
+        function nextSlide() {
+            index = (index + 1) % images.length;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + images.length) % images.length;
+            updateCarousel();
+        }
+
+        // Auto-slide every 3 seconds
+        setInterval(nextSlide, 3000);
+        // Load first image on page load
+        updateCarousel();
+    </script>
+  </body>
+</html>
